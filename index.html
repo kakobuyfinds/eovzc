@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>FishBuy spreadsheet | Categorías, tallas y control de calidad</title>
+  <meta name="description" content="Consulta la guía FishBuy spreadsheet en español. Explora las categorías de CAFANS y aprende a comparar tallas, fotos de control de calidad y gastos de envío.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="theme-color" content="#101a31">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="FishBuy spreadsheet | Categorías, tallas y control de calidad">
+  <meta property="og:description" content="Explora las categorías de CAFANS y compara tallas, fotos de control de calidad y gastos de envío.">
+  <link rel="preconnect" href="https://static.nike.com">
+  <style>
+    :root{color-scheme:light;--navy:#101a31;--ink:#18233a;--muted:#4f5970;--paper:#f8f5ee;--line:#ded8cd;--honey:#ffc272}
+    *,*::before,*::after{box-sizing:border-box}
+    body{margin:0;background:var(--paper);color:var(--ink);font:1rem/1.6 system-ui,sans-serif}
+    a{color:inherit}a:focus-visible,summary:focus-visible{outline:3px solid #bd5800;outline-offset:4px}
+    figure,h1,h2,h3,p{margin:0}p+p{margin-top:.85rem}
+    .wrap{width:min(72rem,calc(100% - 2rem));margin-inline:auto}
+    .top,.hero,footer{background:var(--navy);color:white}
+    .top .wrap{display:flex;justify-content:space-between;align-items:center;gap:1rem;padding-block:.8rem;border-bottom:1px solid #48536a}
+    .brand{font-weight:850;letter-spacing:.12em;text-decoration:none}
+    .hero .wrap{display:grid;grid-template-columns:1.25fr .75fr;align-items:center;gap:2rem;padding-block:clamp(1.5rem,5vw,4rem)}
+    h1{max-width:12ch;font-size:clamp(2.7rem,7vw,6rem);line-height:.96;letter-spacing:-.065em;overflow-wrap:anywhere}
+    .hero p{color:#e0e5f1;max-width:53ch;margin-top:1rem}
+    .button{display:inline-block;background:var(--honey);color:#242031;border-radius:.4rem;padding:.65rem 1rem;margin-top:1.15rem;font-weight:750;text-decoration:none}
+    .hero img{width:100%;max-height:290px;object-fit:contain;background:#f4f2ef;border-radius:.65rem}
+    img{display:block;height:auto}
+    figcaption{font-size:.88rem;padding-top:.45rem}
+    section{margin-block:2.5rem}
+    h2{font-size:clamp(1.55rem,3vw,2.25rem);line-height:1.15;margin-bottom:1rem;letter-spacing:-.035em}
+    h3{font-size:1.15rem;line-height:1.3;margin-bottom:.55rem}
+    .categories{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:.5rem;list-style:none;padding:0;margin:0}
+    .categories a{display:flex;align-items:center;min-height:3rem;height:100%;padding:.55rem .7rem;background:white;border:1px solid var(--line);border-radius:.35rem;text-decoration:none;font-weight:650}
+    .categories a:hover,.categories a:focus-visible{background:#ffead0}
+    .gallery,.articles,.notes{display:grid;gap:.85rem}
+    .gallery{grid-template-columns:repeat(4,minmax(0,1fr))}
+    .gallery img{width:100%;aspect-ratio:1;object-fit:contain;background:#fff;border:1px solid var(--line);border-radius:.45rem}
+    .articles{grid-template-columns:repeat(3,minmax(0,1fr))}
+    article,.notes>div{background:#fff;border:1px solid var(--line);border-radius:.5rem;padding:1rem}
+    article{border-top:4px solid #d78736}
+    .notes{grid-template-columns:repeat(2,minmax(0,1fr));margin:0}
+    dt{font-weight:750}dd{margin:0;color:var(--muted)}
+    .hint{color:var(--muted);margin-top:.7rem}
+    details{border-block-end:1px solid var(--line);padding:.75rem 0}
+    summary{cursor:pointer;font-weight:750;min-height:2rem}
+    details p{margin:.4rem 0 0 1.1rem;max-width:72ch}
+    footer .wrap{padding-block:1.2rem}
+    @media(max-width:800px){.categories{grid-template-columns:repeat(3,minmax(0,1fr))}.articles{grid-template-columns:1fr}}
+    @media(max-width:580px){.hero .wrap,.notes{grid-template-columns:1fr}.gallery,.categories{grid-template-columns:repeat(2,minmax(0,1fr))}.hero img{max-height:200px}}
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"FAQPage",
+    "inLanguage":"es",
+    "name":"FishBuy spreadsheet | Categorías, tallas y control de calidad",
+    "mainEntity":[
+      {"@type":"Question","name":"¿Qué es FishBuy spreadsheet?","acceptedAnswer":{"@type":"Answer","text":"Es una lista de referencia para organizar productos, enlaces y variantes antes de comprar. Esta guía editorial enlaza con las categorías de CAFANS."}},
+      {"@type":"Question","name":"¿Dónde puedo ver zapatillas, ropa y accesorios?","acceptedAnswer":{"@type":"Answer","text":"En las categorías de CAFANS enlazadas al principio de esta página. Abre la ficha de cada artículo para comprobar la variante y la disponibilidad."}},
+      {"@type":"Question","name":"¿Las fotos QC confirman la autenticidad?","acceptedAnswer":{"@type":"Answer","text":"No. Las fotos QC ayudan a revisar el estado, los detalles visibles y las medidas del artículo. Para comprobar su autenticidad, solicita documentación verificable o compra a un vendedor autorizado."}},
+      {"@type":"Question","name":"¿Cómo estimo el coste total de un pedido?","acceptedAnswer":{"@type":"Answer","text":"Suma el precio del artículo, el transporte nacional, las comisiones y el envío internacional. Revisa aparte los impuestos o cargos aplicables al destino y anota qué importes siguen pendientes de confirmar."}}
+    ]
+  }
+  </script>
+<link rel="canonical" href="https://kakobuyfinds.github.io/eovzc/">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <a class="brand" href="https://www.cafans.com">CAFANS</a>
+      <a href="https://www.cafans.com">Ver catálogo</a>
+    </div>
+  </header>
+  <main>
+    <div class="hero">
+      <div class="wrap">
+        <div>
+          <h1>FishBuy spreadsheet</h1>
+          <p>Guía en español para organizar enlaces de productos, comparar tallas y revisar el coste de un pedido antes de pagar. Elige una categoría de CAFANS para empezar.</p>
+          <a class="button" href="https://www.cafans.com">Explorar CAFANS</a>
+        </div>
+        <figure>
+          <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto%2Cq_auto%3Aeco%2Cc_scale%2Cw_300%2Cu_9ddf04c7-2a9a-4d76-add1-d15af8f0263d%2Cc_scale%2Cfl_relative%2Cw_1.0%2Ch_1.0%2Cfl_layer_apply/e6da41fa-1be4-4ce5-b89c-22be4f1f02d4/AIR%2BFORCE%2B1%2B%2707.png" width="640" height="480" loading="eager" fetchpriority="high" decoding="async" alt="Zapatilla Nike Air Force 1 ’07 blanca vista de lado">
+          <figcaption>Nike Air Force 1 ’07 · Referencia visual</figcaption>
+        </figure>
+      </div>
+    </div>
+    <div class="wrap">
+      <section aria-labelledby="categorias">
+        <h2 id="categorias">Categorías del catálogo</h2>
+        <nav aria-label="Categorías de CAFANS">
+          <ul class="categories">
+            <li><a href="https://cafans.com/category-911-Shoes.html">Calzado</a></li>
+            <li><a href="https://cafans.com/category-912-Hoodies%2FSweaters.html">Sudaderas y jerséis</a></li>
+            <li><a href="https://cafans.com/category-913-T-Shirts.html">Camisetas</a></li>
+            <li><a href="https://cafans.com/category-914-Jackets.html">Chaquetas</a></li>
+            <li><a href="https://cafans.com/category-915-Pants%2FShorts.html">Pantalones y shorts</a></li>
+            <li><a href="https://cafans.com/category-916-Headwear.html">Gorras y sombreros</a></li>
+            <li><a href="https://cafans.com/category-917-Sets.html">Conjuntos</a></li>
+            <li><a href="https://cafans.com/category-918-underwear%2Funderpants.html">Ropa interior</a></li>
+            <li><a href="https://cafans.com/category-919-Jersey.html">Camisetas deportivas</a></li>
+            <li><a href="https://cafans.com/category-920-Accessories.html">Accesorios</a></li>
+          </ul>
+        </nav>
+      </section>
+      <section aria-labelledby="guias">
+        <h2 id="guias">Guías para preparar tu pedido</h2>
+        <div class="articles">
+          <article>
+            <h3>Catálogo FishBuy: cómo comparar tallas</h3>
+            <p>Consulta la tabla de tallas del vendedor para cada referencia. En calzado, mide la longitud del pie en centímetros y averigua si la tabla indica la longitud del pie o de la plantilla. Usa la equivalencia de tallas EU de esa ficha.</p>
+            <p>En ropa, compara el ancho de pecho, el largo de la manga y el largo de la prenda con una que ya te quede bien. Si las medidas se toman en plano, compáralas en plano.</p>
+          </article>
+          <article>
+            <h3>Fotos QC de FishBuy: qué revisar</h3>
+            <p>Si tu servicio de compra ofrece fotos del almacén, empieza por la talla de la etiqueta y el color de la variante. Para revisar costuras y acabados, pide primeros planos de la zona que te preocupa.</p>
+            <p>En zapatillas, comprueba la simetría del par y la unión de la suela. En prendas y accesorios, revisa cierres y bordes. Si detectas una diferencia, consulta el plazo de devolución antes de autorizar el envío.</p>
+          </article>
+          <article>
+            <h3>Envío internacional: cómo comparar costes</h3>
+            <p>Al estimar el coste total del pedido, anota el transporte nacional, las comisiones y el cambio de moneda. Pregunta si la tarifa final se calcula por peso real o por peso volumétrico.</p>
+            <p>Compara el envío consolidado con el de paquetes separados usando el peso y las dimensiones finales. Para un envío a España, comprueba con el transportista si el presupuesto incluye impuestos y gastos de gestión.</p>
+          </article>
+        </div>
+      </section>
+      <section aria-labelledby="referencias">
+        <h2 id="referencias">Referencias de ropa y accesorios</h2>
+        <div class="gallery">
+          <figure>
+            <img src="https://au.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-monogram-denim-jacket--FVJA29EFY610_PM2_Front%20view.png?hei=400&amp;wid=400" width="400" height="400" loading="lazy" decoding="async" alt="Chaqueta vaquera Louis Vuitton con motivo Monogram">
+            <figcaption>Chaqueta Monogram · Louis Vuitton</figcaption>
+          </figure>
+          <figure>
+            <img src="https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1659595532/681264_3HAGJ_2564_001_100_0000_Light-Casquette-en-toileGG-jumbo.jpg" width="400" height="400" loading="lazy" decoding="async" alt="Gorra Gucci Jumbo GG en lona beige con visera marrón">
+            <figcaption>Gorra Jumbo GG · Gucci</figcaption>
+          </figure>
+          <figure>
+            <img src="https://www.fashionphile.com/cdn/shop/files/25b6273a425ba6e5ecaa3be2a485da4c.jpg?v=1772018197&amp;width=400" width="400" height="400" loading="lazy" decoding="async" alt="Pañuelo de seda Hermès con el estampado Brides de Gala">
+            <figcaption>Pañuelo Brides de Gala · Hermès</figcaption>
+          </figure>
+          <figure>
+            <img src="https://assets.christiandior.com/is/image/diorprod/R1508WOMCYD03S_SBG_E01-1?%24r4x5_raw%24=&amp;bfc=on&amp;crop=0%2C0%2C4000%2C5000&amp;hei=500&amp;qlt=80&amp;scale=1&amp;wid=400" width="400" height="500" loading="lazy" decoding="async" alt="Anillo Dior Petit CD dorado con cristales">
+            <figcaption>Anillo Petit CD · Dior</figcaption>
+          </figure>
+        </div>
+        <p class="hint">Imágenes de referencia editorial. Consulta la ficha del vendedor para comprobar el producto ofrecido.</p>
+      </section>
+      <section aria-labelledby="enlaces">
+        <h2 id="enlaces">Enlaces de productos FishBuy: qué anotar</h2>
+        <dl class="notes">
+          <div><dt>Ficha y variante</dt><dd>Guarda el enlace original del vendedor, la referencia del artículo, el color elegido y la fecha de consulta. Comprueba el stock por talla antes de pagar.</dd></div>
+          <div><dt>Medidas y materiales</dt><dd>Apunta la longitud de la plantilla, el ancho de hombros, el contorno de cintura o la composición del tejido, según la categoría.</dd></div>
+          <div><dt>Estado del artículo</dt><dd>Anota si las fotos corresponden a la variante pedida. Si necesitas verificar las medidas de una prenda, solicita una foto con cinta métrica.</dd></div>
+          <div><dt>Peso y seguimiento</dt><dd>Registra las dimensiones del paquete, los gastos de envío, el transportista y el número de seguimiento cuando esté disponible.</dd></div>
+        </dl>
+      </section>
+      <section aria-labelledby="faq">
+        <h2 id="faq">Preguntas frecuentes</h2>
+        <details open><summary>¿Qué es FishBuy spreadsheet?</summary><p>Es una lista de referencia para organizar productos, enlaces y variantes antes de comprar. Esta guía editorial enlaza con las categorías de CAFANS.</p></details>
+        <details><summary>¿Dónde puedo ver zapatillas, ropa y accesorios?</summary><p>En las categorías de CAFANS enlazadas al principio de esta página. Abre la ficha de cada artículo para comprobar la variante y la disponibilidad.</p></details>
+        <details><summary>¿Las fotos QC confirman la autenticidad?</summary><p>No. Las fotos QC ayudan a revisar el estado, los detalles visibles y las medidas del artículo. Para comprobar su autenticidad, solicita documentación verificable o compra a un vendedor autorizado.</p></details>
+        <details><summary>¿Cómo estimo el coste total de un pedido?</summary><p>Suma el precio del artículo, el transporte nacional, las comisiones y el envío internacional. Revisa aparte los impuestos o cargos aplicables al destino y anota qué importes siguen pendientes de confirmar.</p></details>
+      </section>
+    </div>
+  </main>
+  <footer><div class="wrap"><p>Guía editorial independiente · <a href="https://www.cafans.com">CAFANS</a></p></div></footer>
+</body>
+</html>
